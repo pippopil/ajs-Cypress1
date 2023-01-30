@@ -34,7 +34,7 @@ it("Should add to favorite", ()=>{
     cy.logout();
 });
 
-it("Should delete from favorite", ()=>{
+it("Download Check", ()=>{
     cy.visit('/');
     cy.login("test@test.com", "test");
     cy.addNewBook('title3', 'author3');
